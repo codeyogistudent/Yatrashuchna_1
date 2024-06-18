@@ -1,0 +1,203 @@
+<header class="header">
+  <h1>Yatra Shucna</h1>
+  <div>
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+<div class="search-container">
+        <input type="text" id="searchInput" onkeyup="searchContent()" placeholder="Search for content...">
+    </div>
+<div class="animated-border">
+    <h1 class="h1">  How 12 JYOTIRLINGAA OF MADHYA PRADESH DISAPPEARED 
+    </h1>
+</div>
+
+<div id="content">
+
+  <h3>How to reach Kedarnath Temple </h3>
+  <img src="https://i.postimg.cc/kXHxgv2q/kedarnath-2240900.jpg" alt="kedarnath temple" >
+  <p> Kedarnath is one of the 12 Jyotirlingas.<a href="#"> Read more....</a> </p>
+  <h3>How to reach mahakaleshwar Temple </h3>
+  <img src="https://i.postimg.cc/XJgMkvR7/654d3aa40b7d46fc5b40aabaee773220.jpg">
+  <p>mahakaleshwar is one of the 12 Jyotirlingas.<a href="#"> Read more....</a></p>
+  <h3>How to reach How to reach somnath Temple </h3>
+  <img src="https://api.somnath.org/upload/CoverPhotos/Somanath_Temple.jpg">
+  <p>somnath is one of the 12 Jyotirlingas.<a href="#">Read more....</a></p>
+  <h3>How to reach Mallikārjuna Temple.</h3>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Srisailam-temple-entrance.jpg">
+  <p>Mallikārjuna is one of the 12 Jyotirlingas. <a href=""> Read more....</a></p>
+  <h3>How to reach Omkareshwar Temple.</h3>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Omkareshwar.JPG">
+  <p>Omkareshwar is one of the 12 Jyotirlingas. <a href=""> Read more....</a></p>
+  <h3>How to reach Bhimashankar Temple.</h3>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Bhimashankar.jpg">
+  <p>Bhimashankar is one of the 12 Jyotirlingas. <a href=""> Read more....</a></p>
+  <h3>How to reach Visheakarmeshwar Temple.</h3>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Kashi_Vishwanath_temple.jpg">
+  <p> Visheakarmeshwar is one of the 12 Jyotirlingas.<a href=""> Read more....</a></p>
+  <h3>How to reach Trimbakeshwar Temple.</h3>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Trimbakeshwar_Shiva_Temple%2C_Trimbak%2C_Nashik_district.jpg">
+  <p> Trimbakeshwar is one of the 12 Jyotirlingas.<a href=""> Read more....</a></p>
+  <h3>How to reach Baidyanath Temple.</h3>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Baba_dham.jpg">
+  <p> Baidyanath  is one of the 12 Jyotirlingas.<a href=""> Read more....</a></p>
+  <h3>How to reach Nageshvara Temple.</h3>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Jageshwar_main.JPG">
+  <p> Nageshvara is one of the 12 Jyotirlingas.<a href=""> Read more....</a></p>
+  <h3>How to reach Rameshwar Temple.</h3>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Ramanathar-temple.jpg">
+  <p> Rameshwar is one of the 12 Jyotirlingas.<a href=""> Read more....</a></p>
+  <h3>How to reach Grishneshwar Temple.</h3>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Grishneshwar_temple_in_Aurangabad_district.jpg/1280px-Grishneshwar_temple_in_Aurangabad_district.jpg">
+  <p> Grishneshwar is one of the 12 Jyotirlingas.<a href=""> Read more....</a></p>
+  
+    
+
+<footer class="footer">
+  <p>&copy; 2024 Yatra Shucna. All rights reserved.</p>
+</footer>
+
+  <style>
+    *{
+  margin:0;
+  padding:0;
+  text-decoration:none;
+}
+#content, img{
+  width:100%;
+}
+.header, .footer{
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px; 
+  text-align: center; 
+  
+  }
+.header h1 {
+  font-size: 36px; 
+  margin-bottom: 10px; 
+}
+.header div a {
+  color: #fff;  
+  margin-top: 0 10px; 
+}
+
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+#content {
+    margin-top: 20px ;
+    border:2px solid red;
+   border-radius: 10px;
+   display: flex;
+  flex-direction: column;
+  justify-content: centre;
+  align-items: center;
+  padding:5px;
+margin-bottom:100px;
+}
+ 
+.footer {
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+  
+}
+.animated-border {
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, #ff6b6b, #ffde7d, #6bc1ff);
+    border-image-slice: 1;
+    animation: borderAnimation 3s linear infinite;
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-image-source: linear-gradient(45deg, #ff6b6b, #ffde7d, #6bc1ff);
+    }
+    50% {
+        border-image-source: linear-gradient(45deg, #6bc1ff, #ff6b6b, #ffde7d);
+    }
+    100% {
+        border-image-source: linear-gradient(45deg, #ff6b6b, #ffde7d, #6bc1ff);
+    }
+}
+
+.h1{
+  text-align: centre;
+  font-size:10px;
+} 
+body{
+  background-color: lightgray;
+}
+  </style>
+  <script>
+    function searchContent() {
+    var input, filter, content, h3, p, img, i, txtValue;
+    input = document.getElementById('searchInput');
+    filter = input.value.toUpperCase();
+    content = document.getElementById('content');
+    h3 = content.getElementsByTagName('h3');
+    p = content.getElementsByTagName('p');
+    img = content.getElementsByTagName('img');
+
+    
+    for (i = 0; i < h3.length; i++) {
+        txtValue = h3[i].textContent || h3[i].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            h3[i].style.display = "";
+            if (h3[i].nextElementSibling.tagName === 'P') {
+                h3[i].nextElementSibling.style.display = "";
+                if (h3[i].nextElementSibling.nextElementSibling && h3[i].nextElementSibling.nextElementSibling.tagName === 'IMG') {
+                    h3[i].nextElementSibling.nextElementSibling.style.display = "";
+                }
+            }
+        } else {
+            h3[i].style.display = "none";
+            if (h3[i].nextElementSibling.tagName === 'P') {
+                h3[i].nextElementSibling.style.display = "none";
+                if (h3[i].nextElementSibling.nextElementSibling && h3[i].nextElementSibling.nextElementSibling.tagName === 'IMG') {
+                    h3[i].nextElementSibling.nextElementSibling.style.display = "none";
+                }
+            }
+        }
+    }
+
+    
+    for (i = 0; i < p.length; i++) {
+        txtValue = p[i].textContent || p[i].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            p[i].style.display = "";
+            if (p[i].nextElementSibling && p[i].nextElementSibling.tagName === 'IMG') {
+                p[i].nextElementSibling.style.display = "";
+            }
+        } else {
+            p[i].style.display = "none";
+            if (p[i].nextElementSibling && p[i].nextElementSibling.tagName === 'IMG') {
+                p[i].nextElementSibling.style.display = "none";
+            }
+        }
+    }
+
+    
+    for (i = 0; i < img.length; i++) {
+        if (img[i].previousElementSibling && img[i].previousElementSibling.style.display === "none") {
+            img[i].style.display = "none";
+        }
+    }
+    }
+    
+  </script>
